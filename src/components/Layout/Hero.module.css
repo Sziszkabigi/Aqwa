@@ -1,0 +1,24 @@
+.hero {
+    background-image: url(../../assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 280mm;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 60pt;
+    padding-top: 100mm;
+}
+
+.hero h3 {
+    font-size: 40pt;
+    padding-top: 100mm;
+    margin-bottom: 0mm;
+}
+
+.hero p {
+    font-size: 22pt;
+    padding-top: 0mm;
+}

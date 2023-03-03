@@ -1,0 +1,35 @@
+.intro {
+    display: block;
+    background: linear-gradient(to right, #fff 50%, #eaebeb 50%);
+}
+
+.intro {
+    max-width: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    padding: 0;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    background: #eaebeb 50%;
+}
+
+.about {
+    width:50%;
+    position: relative;
+    width: 50%;
+    padding:5mm;
+    padding-left: 15mm;
+}
+
+.youtube {
+    padding:20mm;
+    width:50%;
+    position: relative;
+    width: 50%;
+}
