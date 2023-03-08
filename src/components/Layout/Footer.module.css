@@ -3,6 +3,11 @@ footer {
     height:70mm;
 }}
 
+@media (min-width:430px)and (max-width:800px){
+  footer {
+      height:80mm;
+  }}
+
 footer img{
   max-width: 100%;
 }
@@ -19,7 +24,7 @@ footer img{
     color: white;
 }
 
-  @media (max-width:430px){
+  @media (max-width:600px){
     .fa {
       padding: 12px 20px;
       font-size:17pt;
@@ -28,7 +33,7 @@ footer img{
     }
   }
 
-  @media (max-width:430px){
+  @media (max-width:800px){
     .info h2 {
       font-size:15pt;
     }
@@ -52,7 +57,7 @@ footer img{
     align-items: center;
   }
 
-  @media (max-width:430px){
+  @media (max-width:800px){
   .footer_logo {
     /* display: block; */
     display: inline;
@@ -62,7 +67,6 @@ footer img{
     /* padding: 5mm; */
     padding-left: 5mm;
     padding-right: 5mm;
-    background-color: #7FC7EA;
     justify-content: center;
     justify-items: center;
   }}
@@ -80,7 +84,7 @@ footer img{
     font-size: 20pt;
   }
 
-  @media (max-width:430px){
+  @media (max-width:800px){
 
     .info a {
 
@@ -88,7 +92,7 @@ footer img{
     }
   }
 
-  @media (max-width:430px){
+  @media (max-width:800px){
     .info a {
       text-decoration: none;
       font-size: 10pt;
@@ -99,13 +103,13 @@ footer img{
     font-size: 20pt;
   }
 
-  @media (max-width:430px){
+  @media (max-width:800px){
     .info p {
       font-size: 10pt;
     }
   }
 
-  @media (max-width:430px){
+  @media (max-width:600px){
     .portre {
       display: none;
 }}
