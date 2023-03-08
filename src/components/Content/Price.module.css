@@ -180,6 +180,7 @@
     align-items: center;
     height:15mm;
     background-color: #D5D8DC ;
+    font-size: 13pt;
 }
 
 .sale_price {
@@ -189,6 +190,7 @@
     align-items: center;
     height:15mm;
     background-color:  #7EC7E9;
+    font-size: 13pt;
 }
 
 
