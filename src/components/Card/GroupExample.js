@@ -30,7 +30,7 @@ function GroupExample() {
   return (
     <div className={classes.container}>
       <CardGroup>
-        <Card>
+        <Card className={classes.card}>
           <Card.Img variant="top" src={sevricesImage1} />
           <Card.Body>
             <Card.Title>{text[0].title}</Card.Title>
@@ -40,14 +40,14 @@ function GroupExample() {
                 <small className="text-muted">Last updated 3 mins ago</small>
               </Card.Footer> */}
         </Card>
-        <Card>
+        <Card className={classes.card}>
           <Card.Img variant="top" src={sevricesImage2}  />
           <Card.Body>
             <Card.Title>{text[1].title}</Card.Title>
             <Card.Text>{text[1].description}</Card.Text>
           </Card.Body>
         </Card>
-        <Card>
+        <Card className={classes.card}>
           <Card.Img variant="top" src={sevricesImage3}  />
           <Card.Body>
             <Card.Title>{text[2].title}</Card.Title>

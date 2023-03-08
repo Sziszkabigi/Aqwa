@@ -7,7 +7,7 @@ const Intro = () => {
             <div className={classes.intro}>
                 <div className={classes.content}>
                     <div className={classes.about}>
-                        <h2>Bemutatkozás</h2>  
+                        <h2>BEMUTATKOZÁS</h2>  
                         <p>Légkondicionálókat tisztítunk és tartunk karban. Erre specializálódtunk és ezt jól is csináljuk. Itthon sajnos még mindig az az általánosan bevett módszer, hogy a szűrő elöblítése mellett klímafertőtlenítő spray-t fújnak a szennyezett klímára, ami alapos átmosás nélkül szinte semmit sem ér. Mi egy külföldön már régóta bevált technológiát alkalmazunk. Speciális klímatisztító szerrel és magasnyomású mosóval újjávarázsoljuk koszos légkondiját.  Kételkedik?
                         </p>
                         <p>

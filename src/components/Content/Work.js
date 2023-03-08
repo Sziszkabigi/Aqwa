@@ -11,7 +11,9 @@ const Work = () => {
                     <div className={classes.container_top_left}>
                         <h1>GYAKRAN </h1>
                         <h1> ISMÉTELT </h1>
-                        <h1> KÉRDÉSEK</h1>
+                        <div className={classes.bold}>
+                            <h1> KÉRDÉSEK</h1>
+                        </div>
                     </div>
                     <div className={classes.container_top_right}>
                     <div className={classes.container_carousel}>
@@ -24,7 +26,7 @@ const Work = () => {
             <div className={classes.container_work}>
                 <div className={classes.container_work_wrap}>
                     <div className={classes.container_work_left}>
-                        <h2>Hogyan dolgozunk</h2>
+                        <h2>HOGYAN DOLGOZUNK</h2>
                         <p>Nagyon fontos a tisztítás során a lerakódott por, zsír és baktériumok eltávolítása, ami klímatisztító spray fújkálásával gyakorlatilag lehetetlen. Ez legfeljebb fertőtleníti a hőcserélőt, ha az még tiszta állapotban van.
                         </p>
                         <p>Ha a készülék már szennyezett, ott kizárólag egy alaposabb tisztítás segít, amire mi tökéletes és költséghatékony megoldást kínálunk. így Önnek többé nem kell aggódnia a különböző betegségek miatt.

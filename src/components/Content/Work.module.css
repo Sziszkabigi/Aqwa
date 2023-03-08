@@ -68,8 +68,13 @@
 
 
 .container_top h1 {
-    line-height: 24pt;
+    line-height: 28pt;
     text-align: end;
+    font-weight: 300;
+}
+
+.bold h1 {
+    font-weight: 600;
 }
 
 .container_top p{

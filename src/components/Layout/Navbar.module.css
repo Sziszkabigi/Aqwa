@@ -3,9 +3,8 @@
     opacity:0.98;
 }
 
-
 #navbar_text {
-    background-color: #ea7faf;
+    background-color: #7FC7EA;
     color:white;
 }
 
@@ -45,7 +44,8 @@
 
 @media(max-width:1299px){
     #navbar_text a {
-        padding-right:3%;
+        margin-right: 1rem;
+        padding-right:0%;
         text-align: right;
       }
     }

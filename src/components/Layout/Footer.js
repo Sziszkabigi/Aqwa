@@ -13,7 +13,7 @@ const Footer = () => {
                 </div>
                     <img className={classes.portre} src={portre} alt='logo'/>
                 <div className={classes.info}>
-                    <h2>Kapcsolat</h2>
+                    <h2>KAPCSOLAT</h2>
                     <a href="mailto:info@aqua-clean.hu">info@aqua-clean.hu</a>
                     <p>+36 30 444 2252</p>
                     <a className={classes.fa} href="https://www.facebook.com/splitklimatisztitas/">  f  </a>

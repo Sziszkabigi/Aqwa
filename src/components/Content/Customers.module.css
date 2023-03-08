@@ -25,7 +25,8 @@
 }
 
 .container_text h1{
-    line-height: 24pt;
+    line-height: 28pt;
+    font-weight: 300;
 }
 
 .container h3 {
@@ -37,4 +38,8 @@
 .container p {
     padding-left: 55%;;
     padding-right: 5%;;
+}
+
+.bold h1 {
+    font-weight: 600;
 }

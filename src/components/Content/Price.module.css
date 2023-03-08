@@ -1,6 +1,6 @@
 .price_container {
     padding: 5%;
-    background-color: aliceblue;
+    background-color: #EAEBEB;
 }
 
 .price_container h1 {
@@ -26,15 +26,35 @@
 }
 
 .column {
-    max-width: 120mm;
+    width: 110mm;
     list-style-type: none;
+    max-width: 120mm;
+    box-shadow: 0 4px 8px 0 rgb(63 62 62 / 9%), 0 6px 80px 0 rgb(0 0 0 / 19%);
+    list-style-type: none;
+    padding: 0;
+    margin: 5mm;
+}
+
+.column li {
+    padding:5mm;
 }
 
 .column_vip {
-    max-width: 120mm;
+    width: 110mm;
     list-style-type: none;
     background-color: #0b1826;
     margin-left: 8mm;
+    max-width: 100mm;
+    list-style-type: none;
+    max-width: 120mm;
+    box-shadow: 0 4px 8px 0 rgb(63 62 62 / 9%), 0 6px 80px 0 rgb(0 0 0 / 19%);
+    list-style-type: none;
+    padding: 0;
+    margin: 5mm;
+}
+
+.column_vip li {
+    padding:5mm;
 }
 
 .list_title {
@@ -116,10 +136,24 @@
 }
 
 .sale_column {
+    position: relative;
     text-align: center;
+    width: 110mm;
+    margin-left: 8mm;
+    max-width: 100mm;
     list-style-type: none;
-    font-size: 17pt;
-    padding: 2%;
+    padding: 0;
+    margin: 5mm;
+    box-shadow: 0 4px 8px 0 rgb(63 62 62 / 9%), 0 6px 80px 0 rgb(0 0 0 / 19%);
+}
+
+.sale_column li {
+    padding:5mm;
+}
+
+.sale {
+    display: flex;
+    justify-content: center;
 }
 
 .sale_title {
@@ -128,7 +162,6 @@
     align-content: center;
     margin: 0 auto;
     text-align: left;
-    max-width: 150mm;
     text-align: center;
     align-items: center;
     height:15mm;
@@ -140,8 +173,6 @@
 .sale_amount {
     margin: 0 auto;
     text-align: left;
-    max-width: 150mm;
-    padding-top: 1.5mm;;
     text-align: center;
     align-items: center;
     height:15mm;
@@ -151,8 +182,6 @@
 .sale_price {
     margin: 0 auto;
     text-align: left;
-    max-width: 150mm;
-    padding-top: 1.5mm;;
     text-align: center;
     align-items: center;
     height:15mm;
