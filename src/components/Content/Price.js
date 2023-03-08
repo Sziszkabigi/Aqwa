@@ -19,16 +19,22 @@ const Price = () => {
                         <li className={classes.price}>17.900ft, Ft/beltéri egység</li>
                     </ul>
                     <ul className={classes.column_vip}>
-                        <li className={classes.list_title_vip}>VIP csomag</li>
+                        <div className={classes.vip}>
+                            <li className={classes.list_title_vip}>VIP csomag</li>
+                        </div>
                         <li className={classes.amount_vip}>24órán belüli kiszállás</li>
-                        <li className={classes.price_vip}>40.000 Ft/beltéri egység</li>
+                        <div className={classes.vip}>
+                            <li className={classes.price_vip}>40.000 Ft/beltéri egység</li>
+                        </div>
                     </ul>
                 </div>
                 <div className={classes.sale}>
                 <ul className={classes.sale_column} id={classes.sale}>
-                    <li className={classes.sale_title}>Téli akció!!!</li>
-                    <li className={classes.sale_amount}>December 1- Marcius 1-ig</li>
-                    <li className={classes.sale_price}>15.900ft. Ft/beltéri egység</li>
+                    <div>
+                        <li className={classes.sale_title}>Téli akció!!!</li>
+                        <li className={classes.sale_amount}>December 1- Marcius 1-ig</li>
+                        <li className={classes.sale_price}>15.900ft. Ft/beltéri egység</li>
+                    </div>
                 </ul>
                 </div>
                 <div className={classes.other}>
