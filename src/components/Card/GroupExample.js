@@ -19,7 +19,7 @@ const text = [
   },
   {
     id: 'm3',
-    title: 'Hosszabb élettartam!,',
+    title: 'Hosszabb élettartam!',
     description: 'A rendszeresen tisztított klímaberendezés sokkal hosszabb ideig működik, mint az, amelyik soha nem lett tisztítva. Ha új autót vásárolt és soha nem szervizelte még, akkor akár 75% -kal is csökkentheti várható élettartamát! A légkondicionálók sem különbek.',
   },
 ];

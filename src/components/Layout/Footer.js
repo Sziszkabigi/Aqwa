@@ -9,9 +9,9 @@ const Footer = () => {
         <Fragment>
             <footer id="sec_4">
                 <div className={classes.footer_logo}>
-                    <img className='' src={footerLogoImage} alt='logo'/>'
+                    <img className='' src={footerLogoImage} alt='logo'/>
                 </div>
-                    <img className='' src={portre} alt='logo'/>'
+                    <img className={classes.portre} src={portre} alt='logo'/>
                 <div className={classes.info}>
                     <h2>Kapcsolat</h2>
                     <a href="mailto:info@aqua-clean.hu">info@aqua-clean.hu</a>

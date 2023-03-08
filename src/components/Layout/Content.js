@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import Intro from "../Content/Intro";
 import Work from "../Content/Work";
-import GroupExample from "../Card/GroupExample"
+import GroupExample from "../Card/GroupExample";
 import Price from "../Content/Price";
 
 const Content = () => {

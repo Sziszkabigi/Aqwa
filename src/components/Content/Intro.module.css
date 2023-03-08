@@ -13,11 +13,30 @@
     padding-right: 80px;
 }
 
+@media (max-width:430pc){
+    .intro {
+        max-width: 1330px;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 0;
+        padding: 0;
+        padding-right: 2rem;
+    }
+}
+
 .content {
     display: flex;
     flex-wrap: wrap;
     background: #eaebeb 50%;
 }
+
+@media (max-width:430pc){
+    .content {
+        position: relative;
+        background: #eaebeb 100%;
+    }
+}
+
 
 .about {
     width:50%;
@@ -27,9 +46,33 @@
     padding-left: 15mm;
 }
 
+@media (max-width:430pc){
+    .about {
+        width: 50%;
+        position: relative;
+        width: 100%;
+        padding-top: 7%;
+        padding-left: 15%;
+        padding-right: 10%;
+}}
+
+@media (max-width:430pc){
+    .about h2{
+
+        padding-bottom: 2%;
+}}
 .youtube {
     padding:20mm;
     width:50%;
     position: relative;
     width: 50%;
 }
+
+@media (max-width:430px){
+    .youtube {
+        position: relative;
+        padding-top: 0;
+        padding-bottom: 10mm;
+        padding-right: 15mm;
+        padding-left: 15mm;
+}}

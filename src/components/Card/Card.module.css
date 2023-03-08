@@ -6,3 +6,10 @@
     margin-left: 20mm;
     margin-right: 20mm;
 }
+
+@media (max-width:430px) {
+    .container {
+        margin-bottom: -10mm;
+    }
+    
+}

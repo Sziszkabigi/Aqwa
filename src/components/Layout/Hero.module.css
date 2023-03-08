@@ -1,24 +1,76 @@
 .hero {
     background-image: url(../../assets/bg.jpg);
-    background-repeat: no-repeat;
-    background-position: center top;
-    height: 280mm;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
     color: white;
     text-align: center;
 }
 
-.hero h1 {
-    font-size: 60pt;
-    padding-top: 100mm;
-}
+@media (max-width:430px) {
+.hero {
+    background-image: url(../../assets/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 150mm;
+    color: white;
+    text-align: center;
+    margin:0;
+    padding:0;
+}}
 
-.hero h3 {
+@media (min-width:1129px) {
+    .hero h1 {
+        font-size: 55pt;
+        padding-top: 100mm;
+}}
+
+@media (min-width:430px) {
+    .hero h1 {
+        font-size: 45pt;
+        padding-top: 100mm;
+}}
+
+@media (max-width:430px) {
+    .hero h1 {
+        font-size: 20pt;
+        padding-top: 30mm;
+}}
+
+@media (min-width:1129px) {
+    .hero h3 {
     font-size: 40pt;
     padding-top: 100mm;
     margin-bottom: 0mm;
-}
+}}
+
+@media (min-width:430px) {
+    .hero h3 {
+        font-size: 20pt;
+        padding-top: 100mm;
+}}
+
+@media (max-width:430px) {
+    .hero h3 {
+        font-size: 16pt;
+        padding-top: 20mm;
+}}
 
 .hero p {
-    font-size: 22pt;
-    padding-top: 0mm;
+    font-size: 18pt;
+    color: white;
+    align-items: start;
+    position: relative;
+    display: flex;
+    height: 40mm;
+    justify-content: center;
 }
+
+@media (max-width:430px) {
+    .hero p {
+        font-size: 14pt;
+}}

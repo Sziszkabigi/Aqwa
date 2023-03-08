@@ -14,10 +14,9 @@ const Hero = () => {
                 <h1>{heroText[0].toUpperCase()}</h1>
                 <h3>{heroText[1].toUpperCase()}</h3>
                 <p>{heroText[2]}</p>
-
             </div>
         </Fragment>
-     );
+    );
 }
  
 export default Hero;

@@ -1,0 +1,15 @@
+.container {
+    height:100mm;
+    background-color: aquamarine;
+}
+
+.container h3 {
+    padding-top: 10%;
+    padding-left: 15%;;
+    padding-right: 15%;;
+}
+
+.container p {
+    padding-left: 60%;;
+    padding-right: 15%;;
+}

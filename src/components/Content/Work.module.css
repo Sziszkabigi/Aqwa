@@ -7,6 +7,12 @@
     display: block;
 }
 
+@media (max-width:430px){
+.container_top {
+    background: linear-gradient(to right, #7FC7EA 1000%, #fff 0%);
+    display: block;
+}}
+
 .container_top_main {
     max-width: 1330px;
     display: flex;
@@ -14,7 +20,11 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+@media (max-width:430px){
+    .container_top_main {
+        display: inline-block;
+    }
+}
 .container_top_left {
     color: white;
     width: 50%;
@@ -25,6 +35,17 @@
     margin: 0;
 }
 
+@media (max-width:430px){
+.container_top_left {
+    color: white;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    /* padding-left: 80px; */
+    padding-right: 29%;
+    margin: 0;
+}
+}
 .container_top_right {
     width: 50%;
     padding-bottom: 110px;
@@ -33,6 +54,16 @@
     padding-right: 80px;
     margin: 0;
 }
+
+@media (max-width:430px){
+.container_top_right {
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 0;
+}}
 
 
 .container_top h1 {
@@ -52,21 +83,53 @@
     padding-right: 80px;
 }
 
+@media (max-width:430px){
+    .container_work {
+        display: block;
+        background: linear-gradient(to right, #fff 00%, #eaebeb 100%);
+        width:100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
 .container_work_wrap {
     display: flex;
     flex-wrap: wrap;
     background: #eaebeb;
 }
 
+@media (max-width:430px){
+    .container_work_wrap {
+        display: inline;
+        flex-wrap: wrap;
+        background: #eaebeb;
+    }
+}
+
 .container_work h2{
     padding-bottom: 2%;
 }
+
+@media (max-width:430px){
+    .container_work h2 {
+        padding-top: 5%;
+        padding-bottom: 5%;
+}}
 
 .container_work_right {
     width:50%;
     padding-left: 5%;
     padding-top: 2%;
 }
+@media (max-width:430px){
+.container_work_right {
+    width:100%;
+    padding-left: 5%;
+    padding-top: 2%;
+}}
+
 .container_work_left {
     width:50%;
     padding-left: 20px;
@@ -74,6 +137,15 @@
     padding-top: 2%;
     padding-bottom: 2%;
 }
+
+@media (max-width:430px){
+.container_work_left {
+     width: 100%; 
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    padding-top: 2%;
+    padding-bottom: 2%;
+}}
 
 .container_work_right h2 {
     padding-bottom: 5%;

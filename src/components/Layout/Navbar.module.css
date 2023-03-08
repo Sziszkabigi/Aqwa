@@ -1,0 +1,52 @@
+.navbar{
+    z-index: 0;
+    opacity:0.98;
+}
+
+
+#navbar_text {
+    background-color: #ea7faf;
+    color:white;
+}
+
+#navbar_text_title {
+    background-color: #7FC7EA;
+    color:white;
+  }
+
+@media(max-width:1299px){
+    #navbar_text_title {
+        background-color: #7FC7EA;
+        color:white;
+        height: 2mm;
+        margin:0;
+        padding: 0;
+    }
+} 
+
+@media(max-width:1299px){
+    #navbar_text_title button {
+        position: relative;
+        margin-top:5mm;
+        padding-top: 5mm;
+        padding-right: 10mm;
+        top: 7mm;
+    }
+} 
+
+
+@media(max-width:1299px){
+    #navbar_text {
+        background-color: #7FC7EA;
+        color: white;
+        height: 8mm;
+  }
+}
+
+@media(max-width:1299px){
+    #navbar_text a {
+        padding-right:3%;
+        text-align: right;
+      }
+    }
+ 
