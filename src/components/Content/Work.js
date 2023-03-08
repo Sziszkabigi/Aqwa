@@ -1,5 +1,7 @@
 import { Fragment } from "react";
 import classes from './Work.module.css';
+import Example from "../Carousel/Carousel";
+import Faq from "../Carousel/Faq";
 
 const Work = () => {
     return ( 
@@ -7,15 +9,16 @@ const Work = () => {
             <div className={classes.container_top}>
                 <div className={classes.container_top_main}>
                     <div className={classes.container_top_left}>
-                        <h1>Milyen gyakran </h1>
-                        <h1> tisztíttassam a </h1>
-                        <h1> klímámat?</h1>
+                        <h1>GYAKRAN </h1>
+                        <h1> ISMÉTELT </h1>
+                        <h1> KÉRDÉSEK</h1>
                     </div>
                     <div className={classes.container_top_right}>
-                        <p> Normál otthoni felhasználás mellett, ha csak hűtésre használjuk nyáron, akkor évi 1 karbantartás szükséges. Ez egyébként elengedhetetlen a garancia megőrzéséhez! Ha fűteni is szeretnénk vele, vagy olyan helyen van a lakásban, ahol könnyen koszolódik, pl. konyha, akkor évente legalább kétszer.
-                        </p>
-                        <span id="sec_2"></span>
+                    <div className={classes.container_carousel}>
+                        <Faq/>
                         </div>
+                        <span id="sec_2"></span>
+                    </div>
                 </div>
             </div>
             <div className={classes.container_work}>

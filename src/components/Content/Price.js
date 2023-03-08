@@ -6,7 +6,6 @@ const Price = () => {
     return (
         <Fragment>
             <div className={classes.price_container}>
-                <h1 className={classes.title}>Klimatisztitas arak</h1>
                 <h2>ÁRAK, BUDAPEST TERÜLETÉN</h2>
                 <div className={classes.price_list}>
                     <ul className={classes.column}>
@@ -51,7 +50,6 @@ const Price = () => {
                 </div>
             </div>
         </Fragment>
-
     );
 }
  

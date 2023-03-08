@@ -37,7 +37,6 @@
     margin-left: 8mm;
 }
 
-
 .list_title {
     display: flex;
     justify-content: center;
@@ -136,7 +135,6 @@
     background-color: #4689C7;
     color: white;
     font-size: 16pt;
-
 }
 
 .sale_amount {

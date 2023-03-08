@@ -7,26 +7,23 @@ import AcUnit from '@mui/icons-material/AcUnit';
 import { ClassNames } from '@emotion/react';
 
 
-function Example(props) {
+function Faq(props) {
     var items = [
         {
-            name: "(Hámori Éva)",
-            description: `
-            “Régi klímánk sajnos már büdös levegőt fújt, ezért nem is nagyon mertük használni. Egy ismerősünk ajánlotta az Aqua-Clean-t, akik profin kitisztították. Azóta semmi szaga.”
-            `,
-            color:"red",
+            question:"Milyen gyakran tisztíttassam a klímámat?",
+            answer:"Normál otthoni felhasználás mellett, ha csak hűtésre használjuk nyáron, akkor évi 1 karbantartás szükséges.Ez egyébként elengedhetetlen a garancia megőrzéséhez! Ha fűteni is szeretnénk vele, vagy olyan helyen van alakásban, ahol könnyen koszolódik, pl. konyha, akkor évente legalább kétszer.",
         },
         {
-            name: "(Kovács Márton)",
-            description:`
-            “Pékségben lévő klímánk már szinte semmit sem hűtött. Miután kitisztították olyan hideget fújt, mintha új lenne.”
-            `
+            question:"Mikor érdemes kitisztíttatni a klímát?",
+            answer:"Célszerű a hűtési szezon után. Egyrészt a fűtési szezonra már tiszta lesz a légkondi, másrészt tavasztól kezdődően jelentősen megnő a várakozási idő.",
         },
         {
-            name: "(Szigeti Annamária)",
-            description:`
-            “Minden évben tisztíttattam a klímám, de sose mosták még ki így ezelőtt. Elképesztő mi minden jött ki belőle! Minden gyerekes szülőnek erősen ajánlom.”
-            `
+            question:"Én is meg tudom csinálni. Miért hívjak szakembert?",
+            answer:"Nem biztos, hogy jó ötlet egy több százezer forintos klímán tesztelni tudásunkat,  ráadásul, ha valamit elrontunk, akkor a garanciát is elveszítjük! Megfelelő felszerelés és tudás nélkül az eredmény sem lesz megfelelő.",
+        },
+        {
+            question:"Még garanciális a klímám és a telepítést végző cég csak úgy vállal garanciát, ha ők tartják karban?",
+            answer:"Ez sajnos átverés! A jogszabály azt írja elő, hogy F-Gáz azonosítóval rendelkező klímaszerelőnek kell a karbantartást végezni a garancia megőrzéséhez. Hivatalos klímaszerelőként minden szükséges engedéllyel rendelkezem, így bátran hívhat garancia időn belül is."
         }
     ]
 
@@ -73,13 +70,11 @@ function Item(props)
 {
     return (
         <Paper id={identity.paper}>
-            <h6>{props.item.description}</h6>
-            <p>{props.item.name}</p>
+            <h5>{props.item.question}</h5>
+            <p>{props.item.answer}</p>
             <Button className="CheckButton"></Button>
         </Paper>
     )
 }
 
-
-
-export default Example;
+export default Faq;

@@ -8,9 +8,9 @@ const Customers = () => {
       <Fragment>
         <div className={classes.container}>
           <div className={classes.container_text}>
-            <h2>Ügyfeleink</h2>
-            <h2>mondták</h2>
-            <h2><bold>Rólunk.</bold></h2>
+            <h1>Ügyfeleink</h1>
+            <h1>mondták</h1>
+            <h1><bold>Rólunk.</bold></h1>
           </div>
           <div className={classes.container_carousel}>
             <Example/>

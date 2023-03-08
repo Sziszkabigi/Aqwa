@@ -1,21 +1,31 @@
 .container {
     height:100mm;
     display: flex;
-
 }
 
-.container_carousel{
+.container_carousel {
     width:60%;
+    width: 50%;
+    /* padding-bottom: 110px; */
+    /* padding-top: 110px; */
+    padding-right: 4%;
+    padding-left: 4%;
+    margin: 0;
 }
 
-.container_text{
-    position: flex;
-    justify-content: center;
-    text-align: center;
-    padding-top: 10%;
-    width:40%;
+.container_text {
+    display: grid;
+    justify-content: end;
+    align-content: center;
+    padding-right:5rem;
+    width:50%;
     background-color: #7FC7EA;
     color: white;
+    text-align: end;
+}
+
+.container_text h1{
+    line-height: 24pt;
 }
 
 .container h3 {
