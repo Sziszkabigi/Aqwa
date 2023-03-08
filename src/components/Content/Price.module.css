@@ -14,8 +14,10 @@
 
 .price_list {
     display: flex;
-    text-align: center;
-    font-size: 17pt;
+    justify-content: center;
+    align-content: center;
+    font-size: 13pt;
+    padding:1rem;
 }
 @media (max-width:430px){
     .price_list {
@@ -24,40 +26,94 @@
 }
 
 .column {
-   max-width: 120mm;
+    max-width: 120mm;
     list-style-type: none;
 }
 
+.column_vip {
+    max-width: 120mm;
+    list-style-type: none;
+    background-color: #0b1826;
+    margin-left: 8mm;
+}
+
+
 .list_title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     color: white;
     padding-top: 1.5mm;;
     text-align: center;
     align-items: center;
     height:15mm;
-    background-color: coral;
-    font-size: 20pt;
+    background-color: #adb0b3;
+    font-size: 16pt;
 }
 
-@media (max-width:430px){
+.price_vip,
+.amount_vip{
+    color: transparent;
+    font-size: 13pt;
+    padding-right: 2rem;
+    padding-top: 1.5mm;
+    text-align: center;
+    align-items: center;
+    height:15mm;
+    background-image: linear-gradient(to right,#462523,#cb9b51 22%,#f6e26a 45%,#f6f2c0 50%,        #f6e27a 55%,
+    #462523 100% );
+    -webkit-background-clip:text;
+}
+
+.list_title_vip {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-right: 2rem;
+    width:100%;
+    font-weight: bold;
+    letter-spacing: 3pt;
+    color: transparent;
+    font-size: 15pt;
+    padding-top: 1.5mm;;
+    text-align: center;
+    align-items: center;
+    height:15mm;
+    background-image: linear-gradient(to right,
+    #462523,
+    #cb9b51 22%,
+    #f6e26a 45%,
+    #e4df9a 40%,
+    #f6e27a 55%,
+    #462523 100% );
+    -webkit-background-clip:text;
+}
+
+@media (max-width:430px){   
     .list_title {
 
         font-size: 12pt;
     }
 }
 .amount {
-    padding-top: 1.5mm;;
+    display: flex;
+    justify-content: center;
+    align-content: center;
     text-align: center;
     align-items: center;
     height:15mm;
-    background-color:  rgb(223 226 227);
+    background-color: #D5D8DC;
 }
 
 .price {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     padding-top: 1.5mm;;
     text-align: center;
     align-items: center;
     height:15mm;
-    background-color: rgb(237, 220, 90);
+    background-color: #EAECEE;
 }
 
 .sale_column {
@@ -68,16 +124,18 @@
 }
 
 .sale_title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     margin: 0 auto;
     text-align: left;
     max-width: 150mm;
-    padding-top: 1.5mm;;
     text-align: center;
     align-items: center;
     height:15mm;
-    background-color: rgb(51, 142, 159);
+    background-color: #4689C7;
     color: white;
-    font-size: 19pt;
+    font-size: 16pt;
 
 }
 
@@ -89,7 +147,7 @@
     text-align: center;
     align-items: center;
     height:15mm;
-    background-color:  rgb(223 226 227);
+    background-color: #D5D8DC ;
 }
 
 .sale_price {
@@ -100,7 +158,7 @@
     text-align: center;
     align-items: center;
     height:15mm;
-    background-color:  rgb(82, 122, 129);
+    background-color:  #7EC7E9;
 }
 
 .other {

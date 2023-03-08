@@ -1,6 +1,21 @@
 .container {
     height:100mm;
-    background-color: aquamarine;
+    display: flex;
+
+}
+
+.container_carousel{
+    width:60%;
+}
+
+.container_text{
+    position: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10%;
+    width:40%;
+    background-color: #7FC7EA;
+    color: white;
 }
 
 .container h3 {
@@ -10,6 +25,6 @@
 }
 
 .container p {
-    padding-left: 60%;;
-    padding-right: 15%;;
+    padding-left: 55%;;
+    padding-right: 5%;;
 }

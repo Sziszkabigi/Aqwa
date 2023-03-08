@@ -3,7 +3,8 @@ import Carousel from 'react-material-ui-carousel'
 import { Paper, Button } from '@mui/material'
 import './Carousel.module.css'
 import identity from './Carousel.module.css'
-import Home from '@mui/icons-material/Home';
+import AcUnit from '@mui/icons-material/AcUnit';
+import { ClassNames } from '@emotion/react';
 
 
 function Example(props) {
@@ -12,7 +13,8 @@ function Example(props) {
             name: "(Hámori Éva)",
             description: `
             “Régi klímánk sajnos már büdös levegőt fújt, ezért nem is nagyon mertük használni. Egy ismerősünk ajánlotta az Aqua-Clean-t, akik profin kitisztították. Azóta semmi szaga.”
-            `
+            `,
+            color:"red",
         },
         {
             name: "(Kovács Márton)",
@@ -39,23 +41,23 @@ function Example(props) {
                         </Button>
                     )
                 }}
-                IndicatorIcon={<Home/>} // Previous Example
+                IndicatorIcon={<AcUnit />} // Previous Example
                 indicatorIconButtonProps={{
                     style: {
-                        padding: '10px',    // could be anything
-                        color: 'blue'
+                        padding: '5px',    // could be anything
+                        color: '#7FC7EA',
                     }
                 }}
                 activeIndicatorIconButtonProps={{
                     style: {
-                        backgroundColor: 'grey' 
+                        backgroundColor: '#42a9da' 
                     }
                 }}
                 indicatorContainerProps={{
                     style: {
                         marginTop: '20px', 
                         marginBottom: '20px', 
-                        textAlign: 'center' 
+                        textAlign: 'center' ,
                     }
                 }}
                 >
@@ -70,8 +72,8 @@ function Example(props) {
 function Item(props)
 {
     return (
-        <Paper >
-            <h3>{props.item.description}</h3>
+        <Paper id={identity.paper}>
+            <h5>{props.item.description}</h5>
             <p>{props.item.name}</p>
             <Button className="CheckButton"></Button>
         </Paper>

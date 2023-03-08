@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import { parseIsolatedEntityName } from "typescript";
 import classes from './Price.module.css';
 
 const Price = () => {
@@ -18,13 +19,13 @@ const Price = () => {
                         <li className={classes.amount}>2-4db</li>
                         <li className={classes.price}>18.000 Ft/beltéri egység</li>
                     </ul>
-                    <ul className={classes.column}>
-                        <li className={classes.list_title}>Kedvezmény társasházaknak</li>
-                        <li className={classes.amount}>4db-tól</li>
-                        <li className={classes.price}>15.000 Ft/beltéri egység</li>
+                    <ul className={classes.column_vip}>
+                        <li className={classes.list_title_vip}>VIP</li>
+                        <li className={classes.amount_vip}>4db-tól</li>
+                        <li className={classes.price_vip}>15.000 Ft/beltéri egység</li>
                     </ul>
                 </div>
-                <ul className={classes.sale_column}>
+                <ul className={classes.sale_column} id={classes.sale}>
                     <li className={classes.sale_title}>Teli Akcio!!!</li>
                     <li className={classes.sale_amount}>December 1- Marcius 1-ig</li>
                     <li className={classes.sale_price}>16.000 Ft/beltéri egység</li>

@@ -4,7 +4,6 @@ import Hero from './components/Layout/Hero';
 import Content from './components/Layout/Content';
 import Footer from './components/Layout/Footer';
 import './components/Layout/Navbar.module.css';
-import Customers from './components/Content/Customers';
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
       <Header/>
       <Hero/>
       <Content/>
-      <Customers/>
       <Footer/>
     </Fragment>
   );
