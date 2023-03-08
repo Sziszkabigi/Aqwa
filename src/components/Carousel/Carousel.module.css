@@ -4,7 +4,8 @@
 
 #button_corousel {
     position: relative;
-    top:30mm;
+    top:40mm;
+    margin:-3mm;
 }
 
 #paper{

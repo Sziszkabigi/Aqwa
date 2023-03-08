@@ -5,7 +5,8 @@ import './Carousel.module.css'
 import identity from './Carousel.module.css'
 import AcUnit from '@mui/icons-material/AcUnit';
 import { ClassNames } from '@emotion/react';
-
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 function Example(props) {
     var items = [
@@ -36,8 +37,8 @@ function Example(props) {
                 NavButton={({onClick, className, style, next, prev}) => {
                     return (
                         <Button id={identity.button_corousel} onClick={onClick} className={className} style={style} >
-                            {next && ">"}
-                            {prev && "<"}
+                            {next && <ArrowForwardIosIcon/>}
+                            {prev && <ArrowBackIosIcon/>}
                         </Button>
                     )
                 }}

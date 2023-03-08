@@ -14,7 +14,11 @@
     }   
 }
 
-.card h5 {
+.card {
+    border: none;
+}
+
+h5 {
     text-transform: uppercase;
     
 }
