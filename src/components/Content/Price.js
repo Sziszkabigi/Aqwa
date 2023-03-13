@@ -9,13 +9,13 @@ const Price = () => {
                 <h2>KLIÍMA TISZTÍTÁS ÁRAK</h2>
                 <div className={classes.price_list}>
                     <ul className={classes.column}>
-                        <li className={classes.list_title}>Klíma tisztítás</li>
-                        <li className={classes.amount}>1db</li>
+                        <li className={classes.list_title}>1 db</li>
+                        <li className={classes.amount}>Split klíma vegyszeres mosása</li>
                         <li className={classes.price}>19.900 Ft/beltéri egység</li>
                     </ul>
                     <ul className={classes.column}>
-                        <li className={classes.list_title}>Klíma tisztítás</li>
-                        <li className={classes.amount}>2db-tól</li>
+                        <li className={classes.list_title}>2 db-tól</li>
+                        <li className={classes.amount}>Split klíma vegyszere mosása</li>
                         <li className={classes.price}>17.900ft, Ft/beltéri egység</li>
                     </ul>
                     <ul className={classes.column_vip}>

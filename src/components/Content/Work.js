@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import classes from './Work.module.css';
-import Example from "../Carousel/Carousel";
 import Faq from "../Carousel/Faq";
+import Galery from "../Carousel/Galery";
 
 const Work = () => {
     return ( 
@@ -31,9 +31,10 @@ const Work = () => {
                         </p>
                         <p>Ha a készülék már szennyezett, ott kizárólag egy alaposabb tisztítás segít, amire mi tökéletes és költséghatékony megoldást kínálunk. így Önnek többé nem kell aggódnia a különböző betegségek miatt.
                         </p>
-                        <iframe src='https://www.youtube.com/embed/lX_ZvWNyrwc'/>
+                        <iframe className={classes.iframe} src='https://www.youtube.com/embed/lX_ZvWNyrwc'/>
                     </div>
                     <div className={classes.container_work_right}>
+                        <Galery></Galery>
                         <h2>A Klímatisztítás menete lépésről lépésre</h2>
                         <ol type="1">
                             <li> Burkolat leszerelése.</li>

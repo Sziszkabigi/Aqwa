@@ -1,20 +1,29 @@
 #container {
-    height:20mm;
+    height: 20mm;
 }
 
 #button_corousel {
     position: relative;
-    top:40mm;
-    margin:-3mm;
+    top: 40mm;
+    margin: -3mm;
 }
 
 #paper{
     display: grid;
     align-content: center;
-    height:80mm;
+    height: 80mm;
     padding-top: 15%;
     padding-right: 15mm;
     padding-left: 15mm;
     border: none;
     box-shadow: none;
+}
+
+#paper_galery{
+    height: 100%;
+    display: grid;
+    align-content: center;
+    border: none;
+    box-shadow: none;
+    background-color: #EAEBEB;
 }

@@ -4,33 +4,24 @@ import { Paper, Button } from '@mui/material'
 import './Carousel.module.css'
 import identity from './Carousel.module.css'
 import AcUnit from '@mui/icons-material/AcUnit';
-import { ClassNames } from '@emotion/react';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import workImage1 from '../../assets/works-1.jpg';
+import workImage2 from '../../assets/works-2.jpg';
+import { Container } from 'react-bootstrap';
 
-
-function Faq(props) {
+const Galery = () => {
     const items = [
         {
-            question:"Milyen gyakran tisztíttassam a klímámat?",
-            answer:"Normál otthoni felhasználás mellett, ha csak hűtésre használjuk nyáron, akkor évi 1 karbantartás szükséges.Ez egyébként elengedhetetlen a garancia megőrzéséhez! Ha fűteni is szeretnénk vele, vagy olyan helyen van alakásban, ahol könnyen koszolódik, pl. konyha, akkor évente legalább kétszer.",
+            image:`${workImage1}`,
         },
         {
-            question:"Mikor érdemes kitisztíttatni a klímát?",
-            answer:"Célszerű a hűtési szezon után. Egyrészt a fűtési szezonra már tiszta lesz a légkondi, másrészt tavasztól kezdődően jelentősen megnő a várakozási idő.",
-        },
-        {
-            question:"Én is meg tudom csinálni. Miért hívjak szakembert?",
-            answer:"Nem biztos, hogy jó ötlet egy több százezer forintos klímán tesztelni tudásunkat,  ráadásul, ha valamit elrontunk, akkor a garanciát is elveszítjük! Megfelelő felszerelés és tudás nélkül az eredmény sem lesz megfelelő.",
-        },
-        {
-            question:"Még garanciális a klímám és a telepítést végző cég csak úgy vállal garanciát, ha ők tartják karban?",
-            answer:"Ez sajnos átverés! A jogszabály azt írja elő, hogy F-Gáz azonosítóval rendelkező klímaszerelőnek kell a karbantartást végezni a garancia megőrzéséhez. Hivatalos klímaszerelőként minden szükséges engedéllyel rendelkezem, így bátran hívhat garancia időn belül is."
+            image:`${workImage2}`,
         }
     ]
 
     return (
-        <Fragment>
+        <Container>
             <Carousel
                 NavButton={({onClick, className, style, next, prev}) => {
                     return (
@@ -64,19 +55,17 @@ function Faq(props) {
                     items.map( (item, i) => <Item key={i} item={item} /> )
                 }
             </Carousel>
-        </Fragment>
+        </Container>
     )
 }
 
 function Item(props)
 {
     return (
-        <Paper id={identity.paper}>
-            <h5>{props.item.question}</h5>
-            <p>{props.item.answer}</p>
-            <Button className="CheckButton"></Button>
+        <Paper id={identity.paper_galery}>
+            <img src={props.item.image} />
         </Paper>
     )
 }
-
-export default Faq;
+ 
+export default Galery;
