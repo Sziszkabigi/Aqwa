@@ -9,6 +9,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import workImage1 from '../../assets/works-1.jpg';
 import workImage2 from '../../assets/works-2.jpg';
 import { Container } from 'react-bootstrap';
+import { ClassNames } from '@emotion/react';
 
 const Galery = () => {
     const items = [
@@ -63,7 +64,7 @@ function Item(props)
 {
     return (
         <Paper id={identity.paper_galery}>
-            <img src={props.item.image} />
+            <img className='galery_image' src={props.item.image} />
         </Paper>
     )
 }

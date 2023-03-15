@@ -33,7 +33,7 @@ function GroupExample() {
         <Card className={classes.card}>
           <Card.Img variant="top" src={sevricesImage1} />
           <Card.Body>
-            <Card.Title>{text[0].title}</Card.Title>
+            <Card.Title className={classes.title}>{text[0].title}</Card.Title>
             <Card.Text>{text[0].description}</Card.Text>
           </Card.Body>
           {/* <Card.Footer>
@@ -43,14 +43,14 @@ function GroupExample() {
         <Card className={classes.card}>
           <Card.Img variant="top" src={sevricesImage2}  />
           <Card.Body>
-            <Card.Title>{text[1].title}</Card.Title>
+            <Card.Title className={classes.title}>{text[1].title}</Card.Title>
             <Card.Text>{text[1].description}</Card.Text>
           </Card.Body>
         </Card>
         <Card className={classes.card}>
           <Card.Img variant="top" src={sevricesImage3}  />
           <Card.Body>
-            <Card.Title>{text[2].title}</Card.Title>
+            <Card.Title className={classes.title}>{text[2].title}</Card.Title>
             <Card.Text>{text[2].description}</Card.Text>
           </Card.Body>
         </Card>

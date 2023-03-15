@@ -1,10 +1,7 @@
 .intro {
     display: block;
+    width:100%;
     background: linear-gradient(to right, #fff 50%, #eaebeb 50%);
-}
-
-.intro {
-    max-width: 1330px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 80px;
@@ -26,6 +23,7 @@
     display: flex;
     flex-wrap: wrap;
     background: #eaebeb 50%;
+    padding-top: 5%;
 }
 
 @media (max-width:600px){
@@ -35,7 +33,6 @@
         background: #eaebeb 100%;
     }
 }
-
 
 .about {
     width:50%;
@@ -53,12 +50,14 @@
         padding-top: 7%;
         padding-left: 15%;
         padding-right: 10%;
-}}
+    }
+}
 
 @media (max-width:600px){
     .about h2{
         padding-bottom: 2%;
-}}
+    }
+}
 
 .youtube {
     padding-left: 15%;
@@ -80,4 +79,5 @@
         padding-bottom: 10mm;
         padding-right: 15mm;
         padding-left: 15mm;
-}}
+    }
+}

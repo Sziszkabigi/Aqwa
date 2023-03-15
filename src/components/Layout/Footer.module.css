@@ -6,11 +6,8 @@ footer {
 @media (min-width:430px)and (max-width:800px){
   footer {
       height:80mm;
-  }}
+}}
 
-footer img{
-  max-width: 100%;
-}
 
 .fa {
     text-align: center;
@@ -22,6 +19,7 @@ footer img{
     text-decoration: none;
     background: #3B5998;
     color: white;
+    margin-top: 2%;
 }
 
   @media (max-width:600px){
@@ -39,6 +37,7 @@ footer img{
     }
   }
   
+
   /* Add a hover effect if you want */
   .fa:hover {
     opacity: 0.7;
@@ -82,6 +81,10 @@ footer img{
   .info a {
     text-decoration: none;
     font-size: 20pt;
+  }
+
+  .info li {
+    list-style-type: none;
   }
 
   @media (max-width:800px){

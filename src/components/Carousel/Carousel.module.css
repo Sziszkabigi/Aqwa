@@ -22,8 +22,14 @@
 #paper_galery{
     height: 100%;
     display: grid;
+    justify-content: center;
     align-content: center;
     border: none;
     box-shadow: none;
     background-color: #EAEBEB;
+}
+
+.galery_image {
+    width: 100%
+
 }

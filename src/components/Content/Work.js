@@ -31,7 +31,7 @@ const Work = () => {
                         </p>
                         <p>Ha a készülék már szennyezett, ott kizárólag egy alaposabb tisztítás segít, amire mi tökéletes és költséghatékony megoldást kínálunk. így Önnek többé nem kell aggódnia a különböző betegségek miatt.
                         </p>
-                        <iframe className={classes.iframe} src='https://www.youtube.com/embed/lX_ZvWNyrwc'/>
+                        <iframe className={classes.work_iframe} src='https://www.youtube.com/embed/lX_ZvWNyrwc'/>
                     </div>
                     <div className={classes.container_work_right}>
                         <Galery></Galery>
