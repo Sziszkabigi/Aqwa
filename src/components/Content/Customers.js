@@ -11,7 +11,7 @@ const Customers = () => {
             <h1>ÜGYFELEINK</h1>
             <h1>MONDTÁK</h1>
             <div className={classes.bold}>
-              <h1>RÓLUNK.</h1>
+              <h1>RÓLUNK</h1>
             </div>
           </div>
           <div className={classes.container_carousel}>

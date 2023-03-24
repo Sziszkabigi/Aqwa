@@ -8,22 +8,21 @@ footer {
       height:80mm;
 }}
 
-
-.fa {
-    text-align: center;
-    padding: 17px 30px;
-    font-size: 30px;
-    width: 85px;
-    height: 85px;
-    border-radius: 50%;
-    text-decoration: none;
-    background: #3B5998;
-    color: white;
-    margin-top: 2%;
+.info .fa {
+  text-align: center;
+  padding: 17px 30px;
+  font-size: 30px;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  text-decoration: none;
+  background: #3B5998;
+  color: white;
+  margin-top: 2%;
 }
 
   @media (max-width:600px){
-    .fa {
+    .info .fa {
       padding: 12px 20px;
       font-size:17pt;
       width: 75px;
@@ -81,6 +80,7 @@ footer {
   .info a {
     text-decoration: none;
     font-size: 20pt;
+    color: #4688C7;
   }
 
   .info li {
@@ -90,7 +90,6 @@ footer {
   @media (max-width:800px){
 
     .info a {
-
       font-size: 10pt;
     }
   }

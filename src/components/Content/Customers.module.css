@@ -10,7 +10,6 @@
     }  
 }
 
-
 .container_carousel {
     width:60%;
     width: 50%;
@@ -52,20 +51,22 @@
     }
 }
 
-.container_text h1{
-    line-height: 28pt;
-    font-weight: 300;
+.container_text h1 {
+    line-height: 37pt;
+    font-weight: 200;
+    font-size: 40pt;
+    letter-spacing: 3pt;
 }
 
 .container h3 {
     padding-top: 10%;
-    padding-left: 15%;;
-    padding-right: 15%;;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .container p {
-    padding-left: 55%;;
-    padding-right: 5%;;
+    padding-left: 55%;
+    padding-right: 5%;
 }
 
 .bold h1 {

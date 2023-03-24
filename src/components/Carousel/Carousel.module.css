@@ -19,6 +19,7 @@
     box-shadow: none;
 }
 
+
 #paper_galery{
     height: 100%;
     display: grid;
@@ -33,3 +34,11 @@
     width: 100%
 
 }
+
+h1 {
+    line-height: 37pt;
+    font-weight: 200;
+    font-size: 40pt;
+    letter-spacing: 3pt;
+    transform: scaleY(1.1);
+  }

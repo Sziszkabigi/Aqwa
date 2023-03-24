@@ -69,9 +69,12 @@
 
 
 .container_top h1 {
-    line-height: 28pt;
     text-align: end;
-    font-weight: 300;
+    line-height: 37pt;
+    font-weight: 200;
+    font-size: 40pt;
+    letter-spacing: 3pt;
+    transform: scaleY(1.1);
 }
 
 @media (max-width:600px) {

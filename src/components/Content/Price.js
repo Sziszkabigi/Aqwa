@@ -6,7 +6,7 @@ const Price = () => {
     return (
         <Fragment>
             <div className={classes.price_container}>
-                <h2>KLIÍMA TISZTÍTÁS ÁRAK</h2>
+                <h2>KLÍMA TISZTÍTÁS ÁRAK</h2>
                 <div className={classes.price_list}>
                     <ul className={classes.column}>
                         <li className={classes.list_title}>1 db</li>
